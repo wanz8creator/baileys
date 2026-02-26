@@ -1,4 +1,4 @@
-# WhatsApp Baileys Raffi
+# WhatsApp Baileys Wanzz
 
 <p align="center">
   <img src="https://a.top4top.io/p_3706f3ufw1.jpg" alt="Thumbnail" />
@@ -57,7 +57,7 @@ Send group status with version 2
 ```javascript
 await sock.sendMessage(target, {
      groupStatusMessage: {
-          text: "Hello World"
+          text: "Bochilteam"
      }
 });
 ```
@@ -81,14 +81,14 @@ Create and send WhatsApp event invitations:
 await sock.sendMessage(target, { 
     eventMessage: { 
         isCanceled: false, 
-        name: "Hello World", 
-        description: "yume native", 
+        name: "Bochilteam", 
+        description: "Bochilteam", 
         location: { 
             degreesLatitude: 0, 
             degreesLongitude: 0, 
-            name: "rowrrrr" 
+            name: "Bochilteam" 
         }, 
-        joinLink: "https://call.whatsapp.com/video/badzzne2", 
+        joinLink: "https://call.whatsapp.com/video/Bochilteam", 
         startTime: "1763019000", 
         endTime: "1763026200", 
         extraGuestsAllowed: false 
@@ -102,7 +102,7 @@ Display poll results with vote counts:
 ```javascript
 await sock.sendMessage(target, { 
     pollResultMessage: { 
-        name: "Hello World", 
+        name: "Bochilteam", 
         pollVotes: [
             {
                 optionName: "TEST 1",
@@ -123,9 +123,9 @@ Send basic interactive messages with copy button functionality:
 ```javascript
 await sock.sendMessage(target, {
     interactiveMessage: {
-        header: "Hello World",
-        title: "Hello World",
-        footer: "telegram: @Raffioffci2 ",
+        header: "Bochilteam",
+        title: "Bochilteam",
+        footer: "telegram: @Bochilteam ",
         buttons: [
             {
                 name: "cta_copy",
@@ -146,28 +146,28 @@ Send interactive messages with buttons, copy actions, and native flow features:
 ```javascript
 await sock.sendMessage(target, {    
     interactiveMessage: {      
-        header: "Hello World",
-        title: "Hello World",      
-        footer: "telegram: @badzzne2",      
+        header: "Bochilteam",
+        title: "Bochilteam",      
+        footer: "telegram: @Bochilteam",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
-                    text: "idk hummmm?",            
-                    url: "https://t.me/badzzne2",            
+                    text: "Bochilteam",            
+                    url: "https://t.me/wanz8creator",            
                     copy_code: "yume",            
                     expiration_time: Date.now() * 999          
                 },          
                 bottom_sheet: {            
                     in_thread_buttons_limit: 2,            
                     divider_indices: [1, 2, 3, 4, 5, 999],            
-                    list_title: "yume native",            
-                    button_title: "yume native"          
+                    list_title: "Bochilteam",            
+                    button_title: "Bochilteam"          
                 },          
                 tap_target_configuration: {            
                     title: " X ",            
                     description: "bomboclard",            
-                    canonical_url: "https://t.me/badzzne2",            
+                    canonical_url: "https://t.me/Bochilteam",            
                     domain: "shop.example.com",            
                     button_index: 0          
                 }        
@@ -195,8 +195,8 @@ await sock.sendMessage(target, {
                                 highlight_label: "label",                  
                                 rows: [                    
                                     {                      
-                                        title: "@badzzne2",                      
-                                        description: "love you",                      
+                                        title: "@Bochilteam",                      
+                                        description: "focus on career",                      
                                         id: "row_2"                    
                                     }                  
                                 ]                
@@ -225,9 +225,9 @@ Send interactive messages with thumbnail image and copy button:
 ```javascript
 await sock.sendMessage(target, {
     interactiveMessage: {
-        header: "Hello World",
-        title: "Hello World",
-        footer: "telegram: @badzzne2",
+        header: "Bochilteam",
+        title: "Bochilteam",
+        footer: "telegram: @Bochilteam",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -278,12 +278,12 @@ Send interactive messages with document from buffer (file system) - **Note: Docu
 ```javascript
 await sock.sendMessage(target, {
     interactiveMessage: {
-        header: "Hello World",
-        title: "Hello World",
-        footer: "telegram: @badzzne2",
+        header: "Bochilteam",
+        title: "Bochilteam",
+        footer: "telegram: @Bochilteam",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "badzzne2.pdf",
+        fileName: "Bochilteam.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         contextInfo: {
             mentionedJid: [target],
@@ -291,12 +291,12 @@ await sock.sendMessage(target, {
             isForwarded: false
         },
         externalAdReply: {
-            title: "shenń Bot",
-            body: "anu team",
+            title: "Bochilteam Bot",
+            body: "Bochilteam",
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
             mediaUrl: " X ",
-            sourceUrl: "https://t.me/badzzne2",
+            sourceUrl: "https://t.me/Bochilteam",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -305,8 +305,8 @@ await sock.sendMessage(target, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/badzzne2",
-                    merchant_url: "https://t.me/badzzne2"
+                    url: "https://t.me/Bochilteam",
+                    merchant_url: "https://t.me/Bochilteam"
                 })
             }
         ]
@@ -320,20 +320,20 @@ Send interactive messages with document from buffer (file system) without contex
 ```javascript
 await sock.sendMessage(target, {
     interactiveMessage: {
-        header: "Hello World",
-        title: "Hello World",
-        footer: "telegram: @badzzne2",
+        header: "Bochilteam",
+        title: "Bochilteam",
+        footer: "telegram: @Bochilteam",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "badzzne2.pdf",
+        fileName: "Bochilteam.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/badzzne2",
-                    merchant_url: "https://t.me/badzzne2"
+                    url: "https://t.me/Bochilteam",
+                    merchant_url: "https://t.me/Bochilteam"
                 })
             }
         ]
